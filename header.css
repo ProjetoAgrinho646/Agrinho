@@ -58,6 +58,14 @@ header{
         
     }
 
+.lista-menu__item{
+    background: var(--roxo-degrade);
+
+
+    
+}
+
+
 *{
     margin: 0;
     padding: 0;
