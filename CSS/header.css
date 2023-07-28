@@ -60,9 +60,6 @@ header{
 
 .lista-menu__item{
     background: var(--roxo-degrade);
-
-
-    
 }
 
 
@@ -107,3 +104,11 @@ nav a:hover{
     border-bottom: 2px solid hsl(0, 0%, 100%);
     transition: 1s;
 }
+
+/* 320px - 480px = mobile */
+@media screen and (min-width: 480px) {
+    .titulo{display: none;}
+    }
+
+
+    
