@@ -2,10 +2,10 @@
     position: relative;
     margin-top: 15%;
     margin-left: 15%;
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -14,6 +14,12 @@
     box-shadow: 0 0 0 5px #ffffff;
     transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
+
+.cards_imagem{
+  width: 250px;
+}
+
+
   
   .card svg {
     width: 48px;
@@ -57,8 +63,15 @@
   
   .card__description {
     margin: 10px 0 0;
-    font-size: 14px;
+    font-size: 13.5px;
     color: #777;
     line-height: 1.4;
   }
   
+  .todos_cards{
+    
+    margin-top: 15%;
+    margin-left: 0%;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+  }

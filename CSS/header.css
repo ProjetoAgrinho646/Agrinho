@@ -87,7 +87,7 @@ nav ul {
     gap: 0 100px; 
     font-size: 1.5rem;
 }
-            
+
 nav a {
     background: -webkit-linear-gradient(120deg, hsl(0, 0%, 100%), hsl(39, 71%, 48%)); 
     -webkit-background-clip: text;
@@ -122,7 +122,12 @@ h3{
     color:#000000;
 }
 
-
+h4{
+    font-size: 54px; 
+    text-align: center;
+    margin-top: 3%;
+    color:#000000;
+}
 
 
 
