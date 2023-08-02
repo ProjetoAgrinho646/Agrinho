@@ -89,7 +89,7 @@ nav ul {
 }
             
 nav a {
-    background: -webkit-linear-gradient(120deg, hsl(0, 0%, 100%), hsl(0, 0%, 39%)); 
+    background: -webkit-linear-gradient(120deg, hsl(0, 0%, 100%), hsl(39, 71%, 48%)); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-decoration: none;
@@ -101,6 +101,26 @@ nav a:hover{
 }
 
 
+h1{
+    font-size: 54px; 
+    text-align: center;
+    margin-top: 15%;
+    color:#000000;
+}
+
+h2{
+    font-size: 54px; 
+    text-align: center;
+    margin-top: 3%;
+    color:#000000;
+}
+
+h3{
+    font-size: 54px; 
+    text-align: center;
+    margin-top: 3%;
+    color:#000000;
+}
 
 
 
@@ -108,7 +128,9 @@ nav a:hover{
 
 
 
-/* 768px - 1024px = telas menores, laptops */
+
+
+/* 820px - 1024px = telas menores, laptops */
 @media screen and (min-width: 820px) {
     .titulo1{font-size: 35px;}
     .titulo2{font-size: 35px;}
@@ -118,7 +140,7 @@ nav a:hover{
 
 
 
-/* 1024px - 1200px = desktop */
+/* 1024px - +telas = desktop */
 @media screen and (min-width: 1024px) {
     .titulo{font-size: 63px; margin-left: 0%;}
     .titulo2{font-size: 62px; margin-left: 0%;}
