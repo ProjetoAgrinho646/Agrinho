@@ -1,4 +1,9 @@
-@import url(styles/header.css);
+@import url(CSS/cards.css);
+@import url(CSS/carousel.css);
+@import url(CSS/header.css);
+@import url(CSS/rodape.css);
+@import url(CSS/video.css);
+
 
 :root{
   --cor-de-fundo: #A66423;
