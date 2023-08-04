@@ -6,7 +6,9 @@
 }
 
 body{
-    background-color: var(--cor-de-fundo);
+  background-color: var(--cor-de-fundo);
   }
 
-  
+header{
+  background-color: var(--cor-do-header);
+}
